@@ -1,17 +1,17 @@
- const toggle = document.getElementById('menu-toggle');
-    const navbar = document.getElementById('navbar');
-    toggle.addEventListener('click', () => navbar.classList.toggle('active'));
+const toggle = document.getElementById('menu-toggle');
+const navbar = document.getElementById('navbar');
+toggle.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+  document.body.classList.toggle('nav-open');
+});
 
-   const typingText = document.querySelector(".typing-text");
-
-const typingText1 = document.querySelector(".typing-text");
+const typingText = document.querySelector(".typing-text");
 
 const roles = [
-  "IT Support Specialist",
-  "Networking Technician",
-  "System Troubleshooter",
-  "Hardware & Software",
-   "Experince 1year"
+  "IT Support ",
+  "Basic Networking",
+  "Software Troubleshooter",
+  "Hardware & Software "
 ];
 
 let index = 0;

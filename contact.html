@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PF</title>
+    <meta name="description" content="Get in touch with Hongly Long for IT support, networking services, and technical consultations.">
+    <meta property="og:title" content="Contact | Hongly Long — IT Support & Networking Specialist">
+    <meta property="og:description" content="Reach out for reliable IT support, network setup, and system troubleshooting.">
+    <meta property="og:type" content="website">
+    <title>Contact | Hongly Long</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -15,51 +19,125 @@
     <header>
         <div class="logo">HONGLY<span>LONG</span></div>
         <nav class="navbar" id="navbar">
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html">Home</a>
             <a href="experince.html">Experience</a>
-            <a href="#about">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="HONGLYLONG.pdf" class="nav-download" download>Download CV</a>
         </nav>
         <div class="menu-toggle" id="menu-toggle">&#9776;</div>
     </header>
-    <section class="contact-info-section" id="contact-info">
-        <div class="contact-card">
-            <h2>📇 Contact Information</h2>
-            <p class="intro">Let's connect — feel free to reach out anytime!</p>
 
-            <div class="info-list">
-                <div class="info-item">
-                    <span class="icon">🏠</span>
-                    <div>
-                        <h4>Address</h4>
-                        <p>24 Street 49BT, Phnom Penh, Cambodia</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <span class="icon">🎓</span>
-                    <div>
-                        <h4>Education</h4>
-                        <p>Setec Institute — Major in MIS (Management Information System)</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <span class="icon">👤</span>
-                    <div>
-                        <h4>Personal Details</h4>
-                        <p>Age: 20<br>Status: Single</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <span class="icon">📧</span>
-                    <div>
-                        <h4>Email</h4>
-                        <p><a href="mailto:sadboylong8@gmail.com">sadboylong8@gmail.com</a></p>
-                    </div>
-                </div>
+    <main class="contact-page main">
+        <section class="contact-hero" data-aos="fade-right">
+            <span>Contact</span>
+            <h1>Have a question or need fast IT support?</h1>
+            <p>Whether it's a networking issue, equipment setup, or system troubleshooting, I'm ready to help with reliable technical support and clear communication.</p>
+            <div class="buttons" style="justify-content: center;">
+                <a href="HONGLYLONG.pdf" class="btn download" download>Download CV</a>
             </div>
+        </section>
+
+        <div class="contact-grid">
+            <section class="contact-panel contact-details" data-aos="fade-up" data-aos-delay="100">
+                <div class="panel-heading">
+                    <h2>Contact Details</h2>
+                    <p>Reach out using the details below or send a quick message with the form.</p>
+                </div>
+
+                <div class="contact-info-list">
+                    <div class="contact-item">
+                        <span class="icon">&#x1F4CD;</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p>24 Street 49BT, Phnom Penh, Cambodia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="icon">&#x1F4DE;</span>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+855882712565">+855 88 271 2565</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="icon">&#x1F4E7;</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:honglylong61@gmail.com">honglylong61@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="icon">&#x1F393;</span>
+                        <div>
+                            <h4>Education</h4>
+                            <p>Setec Institute — MIS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-meta">
+                    <span><strong>Available:</strong> Weekdays from 9am to 6pm</span>
+                    <span><strong>Preferred:</strong> Email or Telegram first</span>
+                </div>
+            </section>
+
+            <section class="contact-panel contact-form-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-form-wrap">
+                    <div class="form-head">
+                        <h2>Send a message</h2>
+                        <p>Share the support you need and I'll respond quickly.</p>
+                    </div>
+
+                    <form id="contact-form" action="mailto:sadboylong8@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" class="form-input" name="Name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" class="form-input" name="Email" placeholder="Your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input id="subject" type="text" class="form-input" name="Subject" placeholder="Subject of your message">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-textarea" name="Message" placeholder="How can I help you?" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
         </div>
-    </section>
+    </main>
+
+    <footer>
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/share/1JXyb7zbm1/?mibextid=wwXIfr" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"></a>
+            <a href="https://t.me/honglylong" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968804.png" alt="Telegram"></a>
+            <a href="https://www.youtube.com/@honglylong-x8w" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube"></a>
+        </div>
+        <p class="copyright">&copy; 2025 Hongly Long. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 900, once: true });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
 </body>
+
+</html>

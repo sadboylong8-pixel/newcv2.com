@@ -4,114 +4,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional experience of Hongly Long — IT Support Specialist and Networking Technician with hands-on expertise.">
-    <meta property="og:title" content="Experience | Hongly Long — IT Support & Networking Specialist">
-    <meta property="og:description" content="IT Support and Networking experience with Windows Server, Active Directory, and system administration.">
+    <meta name="description" content="Professional experience and technical skills of Hongly Long — IT Support & Network Specialist at SETEC Institute.">
+    <meta property="og:title" content="Experience | Hongly Long — IT Support & Network Support Specialist">
+    <meta property="og:description" content="Explore Hongly Long's hands-on experience in IT support, network administration, Windows Server, and Linux systems.">
     <meta property="og:type" content="website">
     <title>Experience | Hongly Long</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS Scroll Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
-        <div class="logo">HONGLY<span>LONG</span></div>
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-network-wired"></i>
+            <span>HONGLY</span>LONG
+        </a>
         <nav class="navbar" id="navbar">
             <a href="index.html">Home</a>
             <a href="experince.html" class="active">Experience</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
-            <a href="honglylong_cv.pdf" class="nav-download" download>Download CV</a>
+            <a href="HONGLYLONGCV.pdf" class="nav-download" download>
+                <i class="fa-solid fa-file-arrow-down"></i> Download CV
+            </a>
         </nav>
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
-    <main class="about-page main">
-        <section class="about" data-aos="fade-up">
+    <main class="main">
+        <!-- EXPERIENCE SECTION -->
+        <section class="section" data-aos="fade-up">
             <div class="section-title">
-                <span>Experience</span>
-                <h3>My professional background and key accomplishments.</h3>
-            </div>
-            <div class="buttons" style="justify-content: center;">
-                <a href="honglylong_cv.pdf" class="btn download" download>Download CV</a>
+                <span class="section-tag"><i class="fa-solid fa-clock-rotate-left"></i> Career History</span>
+                <h2>Professional Experience</h2>
+                <p>Hands-on track record resolving complex IT problems, maintaining systems, and deploying enterprise network infrastructure.</p>
             </div>
 
-            <div class="experience-timeline">
-                <div class="exp-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="exp-header">
-                        <h4>IT Support Specialist</h4>
-                        <span class="exp-date">2025 - Present</span>
+            <div class="buttons" style="justify-content: center; margin-bottom: 40px;">
+                <a href="HONGLYLONGCV.pdf" class="btn-custom btn-primary-glow" download>
+                    <i class="fa-solid fa-file-arrow-down"></i> Download Complete CV (PDF)
+                </a>
+            </div>
+
+            <div class="timeline-container">
+                <!-- Role 1: IT Support & Network Support -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-group">
+                                <h4>IT Support & Network Support</h4>
+                                <div class="timeline-company">
+                                    <i class="fa-solid fa-building-columns"></i> SETEC Institute | Phnom Penh
+                                </div>
+                            </div>
+                            <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> 2026 – Present</span>
+                        </div>
+
+                        <!-- Sub-domain 1: IT Support -->
+                        <div class="timeline-subrole">
+                            <i class="fa-solid fa-laptop-medical"></i> IT Support & System Maintenance
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Provided frontline technical support by diagnosing and resolving hardware, software, and local network issues.</li>
+                            <li>Installed, upgraded, and configured PC hardware components including RAM, SSDs, monitors, and peripherals.</li>
+                            <li>Installed, maintained, and configured Windows 10/11 OS environments, critical patches, and application updates.</li>
+                            <li>Deployed and maintained enterprise software: Microsoft Office, Adobe Creative Suite (Photoshop, Illustrator, InDesign, After Effects, Premiere Pro), and Autodesk applications (AutoCAD, Revit, 3ds Max).</li>
+                            <li>Conducted automated PC cloning, bare-metal system recoveries, and routine data backup/restoration routines.</li>
+                            <li>Installed network cabling, switches, routers, and shared network printers; configured shared folder access and permissions.</li>
+                            <li>Diagnosed LAN connectivity bottlenecks, IP conflicts, and delivered responsive end-user support.</li>
+                            <li>Configured surveillance CCTV cameras using SADP Tool, IP Config Tool, and PoE network switches.</li>
+                        </ul>
+
+                        <!-- Sub-domain 2: Network Admin -->
+                        <div class="timeline-subrole">
+                            <i class="fa-solid fa-network-wired"></i> Network Administration & Topology
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Architected and tested complex network topology diagrams and virtual lab testbeds using GNS3.</li>
+                            <li>Configured enterprise routers, managed switches, VLAN segmentation, subnet IP addressing, and static & dynamic routing.</li>
+                            <li>Analyzed packet transmission and verified end-to-end connectivity using Ping, Traceroute, and Wireshark.</li>
+                            <li>Managed Windows Server and Active Directory: created user accounts, joined workstations to domains, and enforced group permissions.</li>
+                            <li>Configured secure file servers with advanced user permissions and ACL access control lists.</li>
+                            <li>Configured print server spooling to allow seamless, permission-based local printing.</li>
+                        </ul>
+
+                        <!-- Sub-domain 3: Linux SysAdmin -->
+                        <div class="timeline-subrole">
+                            <i class="fa-brands fa-linux"></i> Linux System Administration
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Administered Linux user accounts, user groups, file permissions, password aging policies, UMASK, and ACLs.</li>
+                            <li>Authored automated shell scripts and executed basic remote server administration via SSH.</li>
+                        </ul>
                     </div>
-                    <h5>SETEC INSTITUTE</h5>
-                    <p>Installed Windows 10 and Windows 11 systems for clients, provided comprehensive troubleshooting and technical support, and maintained both hardware and software to ensure smooth operations.</p>
-                    <ul>
-                        <li>Installed and maintained Windows operating systems across multiple client devices</li>
-                        <li>Provided software installation and configuration support</li>
-                        <li>Troubleshot hardware and software issues for clients</li>
-                        <li>Maintained computer systems for optimal performance</li>
-                        <li>Installed software including Adobe Photoshop, Adobe Illustrator, Adobe After Effects</li>
-                    </ul>
                 </div>
 
-                <div class="exp-item" data-aos="fade-up" data-aos-delay="200">
-                    <div class="exp-header">
-                        <h4>Networking Technician</h4>
-                        <span class="exp-date">2023 - Present</span>
+                <!-- Role 2: IT Assistant Volunteer -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-group">
+                                <h4>IT Assistant Volunteer</h4>
+                                <div class="timeline-company">
+                                    <i class="fa-solid fa-hands-holding-circle"></i> SETEC Institute | Phnom Penh
+                                </div>
+                            </div>
+                            <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> 2025 – 2026</span>
+                        </div>
+
+                        <p>Delivered direct technical assistance to faculty members, administrative staff, and students across academic departments.</p>
+
+                        <ul class="timeline-list">
+                            <li>Provided comprehensive IT helpdesk support services for students and teachers across computer labs.</li>
+                            <li>Assisted in installing, configuring, and updating classroom and lab software packages.</li>
+                            <li>Assisted in Windows OS deployment, administrative password recovery, and hardware troubleshooting.</li>
+                            <li>Executed PC recovery, image cloning, system builds, and full workstation setup.</li>
+                            <li>Assisted with basic network switch patching, cable testing, and troubleshooting classroom LAN connections.</li>
+                            <li>Hosted and deployed basic websites using HTML, CSS, and Java.</li>
+                        </ul>
                     </div>
-                    <h5>Basic Networking & Systems Administration</h5>
-                    <p>Installed and configured Windows Server and Linux systems, managed network infrastructure, and set up enterprise solutions including email servers and directory services for organizations.</p>
-                    <ul>
-                        <li>Installed and configured Windows Server and Linux systems</li>
-                        <li>Set up shared folders, file systems, and printer access</li>
-                        <li>Managed Active Directory, user accounts, and group policies</li>
-                        <li>Configured Exchange Server for enterprise email systems</li>
-                        <li>Provided remote support for network troubleshooting</li>
-                    </ul>
                 </div>
             </div>
         </section>
 
-        <section class="about" data-aos="fade-up" data-aos-delay="300">
+        <!-- DETAILED SKILLS MATRIX -->
+        <section class="section" id="skills-matrix" data-aos="fade-up">
             <div class="section-title">
-                <span>Technical Skills</span>
-                <h3>Expertise and proficiencies.</h3>
+                <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Competency Map</span>
+                <h2>Technical Skills Matrix</h2>
+                <p>Specific technologies, networking protocols, operating systems, and professional toolsets I utilize.</p>
             </div>
 
-            <div class="feature-cards">
-                <article class="feature-card" data-aos="zoom-in" data-aos-delay="100">
-                    <h4>Operating Systems</h4>
-                    <p>Windows 10, Windows 11, Windows Server, Linux (configuration & troubleshooting)</p>
-                </article>
-                <article class="feature-card" data-aos="zoom-in" data-aos-delay="200">
-                    <h4>System Administration</h4>
-                    <p>Active Directory, Group Policy, User & Group Management, Domain Configuration</p>
-                </article>
-                <article class="feature-card" data-aos="zoom-in" data-aos-delay="300">
-                    <h4>Networking & Email</h4>
-                    <p>Network configuration, Exchange Server, Email systems, LAN/WAN setup</p>
-                </article>
+            <div class="skills-grid-categories">
+                <!-- Category 1 -->
+                <div class="skill-category-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fa-solid fa-server"></i></div>
+                        <h4>Servers & Directory Services</h4>
+                    </div>
+                    <div class="skill-pills-wrap">
+                        <span class="skill-pill"><i class="fa-brands fa-windows"></i> Windows Server</span>
+                        <span class="skill-pill"><i class="fa-solid fa-users-gear"></i> Active Directory (AD DS)</span>
+                        <span class="skill-pill"><i class="fa-solid fa-envelope-open-text"></i> Exchange Server</span>
+                        <span class="skill-pill"><i class="fa-solid fa-folder-tree"></i> File Server & ACL</span>
+                        <span class="skill-pill"><i class="fa-solid fa-shield-halved"></i> Group Policy (GPO)</span>
+                        <span class="skill-pill"><i class="fa-solid fa-print"></i> Printer Sharing Server</span>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="skill-category-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h4>Network Administration</h4>
+                    </div>
+                    <div class="skill-pills-wrap">
+                        <span class="skill-pill"><i class="fa-solid fa-route"></i> Routers & Switches</span>
+                        <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> VLANs & Subnetting</span>
+                        <span class="skill-pill"><i class="fa-solid fa-arrows-split-up-and-left"></i> Static & Dynamic Routing</span>
+                        <span class="skill-pill"><i class="fa-solid fa-laptop-code"></i> GNS3 Virtual Labs</span>
+                        <span class="skill-pill"><i class="fa-solid fa-magnifying-glass-chart"></i> Wireshark Analysis</span>
+                        <span class="skill-pill"><i class="fa-solid fa-ethernet"></i> LAN Cabling & Patching</span>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="skill-category-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h4>Hardware & Operating Systems</h4>
+                    </div>
+                    <div class="skill-pills-wrap">
+                        <span class="skill-pill"><i class="fa-brands fa-windows"></i> Windows 10 & 11</span>
+                        <span class="skill-pill"><i class="fa-brands fa-linux"></i> Linux (Ubuntu / Debian)</span>
+                        <span class="skill-pill"><i class="fa-solid fa-hard-drive"></i> RAM & SSD Upgrades</span>
+                        <span class="skill-pill"><i class="fa-solid fa-clone"></i> PC Recovery & Cloning</span>
+                        <span class="skill-pill"><i class="fa-solid fa-terminal"></i> Bash Scripting</span>
+                        <span class="skill-pill"><i class="fa-solid fa-user-lock"></i> UMASK & Linux ACL</span>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="skill-category-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fa-solid fa-shield-virus"></i></div>
+                        <h4>CCTV, Security & Software</h4>
+                    </div>
+                    <div class="skill-pills-wrap">
+                        <span class="skill-pill"><i class="fa-solid fa-video"></i> CCTV Camera Setup</span>
+                        <span class="skill-pill"><i class="fa-solid fa-wrench"></i> SADP & IP Config Tool</span>
+                        <span class="skill-pill"><i class="fa-solid fa-bolt"></i> PoE Switches</span>
+                        <span class="skill-pill"><i class="fa-solid fa-palette"></i> Adobe Creative Suite</span>
+                        <span class="skill-pill"><i class="fa-solid fa-drafting-compass"></i> Autodesk (AutoCAD, Revit)</span>
+                        <span class="skill-pill"><i class="fa-solid fa-code"></i> HTML & CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="cta-banner" data-aos="fade-up">
+            <div class="cta-banner-card">
+                <div class="cta-banner-content">
+                    <h3>Interested in Working Together?</h3>
+                    <p>Have an opening or need ongoing support? Feel free to reach out directly.</p>
+                </div>
+                <div class="buttons" style="margin: 0;">
+                    <a href="contact.html" class="btn-custom btn-primary-glow">
+                        <i class="fa-solid fa-paper-plane"></i> Contact Me
+                    </a>
+                    <a href="about.html" class="btn-custom btn-secondary-glow">
+                        <i class="fa-solid fa-user"></i> About Me
+                    </a>
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <div class="footer-socials">
-            <a href="https://www.facebook.com/share/1JXyb7zbm1/?mibextid=wwXIfr" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"></a>
-            <a href="https://t.me/honglylong" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968804.png" alt="Telegram"></a>
-            <a href="https://www.youtube.com/@honglylong-x8w" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube"></a>
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="experince.html">Experience</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="HONGLYLONGCV.pdf" download>CV (PDF)</a>
         </div>
-        <p class="copyright">&copy; 2025 Hongly Long. All rights reserved.</p>
+        <div class="footer-socials">
+            <a href="https://t.me/honglylong" target="_blank" rel="noopener" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.facebook.com/share/1JXyb7zbm1/?mibextid=wwXIfr" target="_blank" rel="noopener" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/@honglylong-x8w" target="_blank" rel="noopener" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="mailto:honglylong61@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="copyright">&copy; 2026 Hongly Long. Designed for peak IT performance.</p>
     </footer>
 
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop" title="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({ duration: 900, once: true });
+        AOS.init({ duration: 800, once: true });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 

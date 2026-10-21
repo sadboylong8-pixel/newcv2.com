@@ -4,101 +4,274 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hongly Long — IT Support & Networking Specialist. Reliable system fixes, secure networks, and professional technical support.">
-    <meta property="og:title" content="Hongly Long | IT Support & Networking Specialist">
-    <meta property="og:description" content="Reliable IT support, network security, and system troubleshooting.">
+    <meta name="description" content="Hongly Long — IT Support & Network Support Specialist. System maintenance, network setup, Windows Server, Active Directory, and hardware troubleshooting.">
+    <meta property="og:title" content="Hongly Long | IT Support & Network Support Specialist">
+    <meta property="og:description" content="Fourth-year MIS student at SETEC Institute specializing in IT support, network administration, and systems reliability.">
     <meta property="og:type" content="website">
-    <title>Hongly Long | IT Support & Networking Specialist</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Hongly Long | IT Support & Network Support Specialist</title>
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS Scroll Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
-        <div class="logo">HONGLY<span>LONG</span></div>
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-network-wired"></i>
+            <span>HONGLY</span>LONG
+        </a>
         <nav class="navbar" id="navbar">
             <a href="index.html" class="active">Home</a>
             <a href="experince.html">Experience</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
-            <a href="honglylong_cv.pdf" class="nav-download" download>Download CV</a>
+            <a href="HONGLYLONGCV.pdf" class="nav-download" download>
+                <i class="fa-solid fa-file-arrow-down"></i> Download CV
+            </a>
         </nav>
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
-    <section class="hero main" data-aos="fade-right">
-        <div class="profile-pic">
-            <img src="unnamed%20(3).png" alt="Hongly Long Profile Photo">
-        </div>
-
-        <div class="intro">
-            <p class="intro-tag">Hi, I'm <span class="highlight">Long</span></p>
-            <h2><span class="typing-text"></span></h2>
-
-            <p class="bio">
-                I deliver reliable IT support, keep networks secure, and help teams stay productive with fast system fixes and friendly service.
-            </p>
-
-            <div class="hero-badges">
-                <span class="badge">IT Support</span>
-                <span class="badge">Basic Networking</span>
-                <span class="badge">Problem Solver</span>
+    <!-- HERO SECTION -->
+    <main class="main">
+        <section class="hero" data-aos="fade-up">
+            <div class="profile-pic-container">
+                <div class="profile-pic">
+                    <img src="profile.png" alt="Hongly Long Profile Photo">
+                </div>
+                <div class="status-pill">
+                    <span class="status-dot"></span>
+                    <span>Available for IT & Network Roles</span>
+                </div>
             </div>
 
-            <div class="buttons">
-                <a href="#about" class="btn primary">See Highlights</a>
-                <a href="contact.html" class="btn secondary">Let's Talk</a>
-                <a href="honglylong_cv.pdf" class="btn download" download>Download CV</a>
+            <div class="intro">
+                <div class="intro-tag">
+                    <i class="fa-solid fa-terminal"></i>
+                    <span>Hello, I'm Hongly Long</span>
+                </div>
+
+                <h1>
+                    IT Support & <br>
+                    <span class="name-highlight">Network Support</span>
+                </h1>
+
+                <div class="typing-container">
+                    <span class="typing-prefix">I am a</span>
+                    <span class="typing-text"></span>
+                </div>
+
+                <p class="bio">
+                    Fourth-year Management Information Systems student at <strong>SETEC Institute</strong> with a strong passion for computer maintenance, network infrastructure, and system administration. Fast learner, dedicated troubleshooter, and committed to high system uptime.
+                </p>
+
+                <div class="hero-badges">
+                    <span class="badge-tag"><i class="fa-solid fa-wrench"></i> Hardware & Software Fixes</span>
+                    <span class="badge-tag"><i class="fa-solid fa-diagram-project"></i> Cisco Routers & VLANs</span>
+                    <span class="badge-tag"><i class="fa-brands fa-windows"></i> Windows Server & AD</span>
+                    <span class="badge-tag"><i class="fa-brands fa-linux"></i> Linux Admin</span>
+                    <span class="badge-tag"><i class="fa-solid fa-video"></i> CCTV & PoE</span>
+                </div>
+
+                <div class="buttons">
+                    <a href="experince.html" class="btn-custom btn-primary-glow">
+                        <i class="fa-solid fa-briefcase"></i> View Experience
+                    </a>
+                    <a href="contact.html" class="btn-custom btn-secondary-glow">
+                        <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                    </a>
+                    <a href="HONGLYLONGCV.pdf" class="btn-custom btn-download-glow" download>
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://t.me/honglylong" target="_blank" rel="noopener" class="social-link" title="Telegram">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/1JXyb7zbm1/?mibextid=wwXIfr" target="_blank" rel="noopener" class="social-link" title="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@honglylong-x8w" target="_blank" rel="noopener" class="social-link" title="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="mailto:honglylong61@gmail.com" class="social-link" title="Email Hongly">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="tel:+855882712565" class="social-link" title="Call Hongly">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS STRIP -->
+        <section class="stats-strip" data-aos="fade-up" data-aos-delay="100">
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                <div class="stat-number">MIS</div>
+                <div class="stat-label">4th Year SETEC Institute</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-microchip"></i></div>
+                <div class="stat-number">100+</div>
+                <div class="stat-label">PC & System Upgrades</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div class="stat-number">GNS3</div>
+                <div class="stat-label">VLAN & Routing Labs</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Support Reliability</div>
+            </div>
+        </section>
+
+        <!-- SPECIALTIES / WHAT I DO -->
+        <section class="section" id="services" data-aos="fade-up">
+            <div class="section-title">
+                <span class="section-tag"><i class="fa-solid fa-gears"></i> Core Capabilities</span>
+                <h2>Comprehensive Technical Expertise</h2>
+                <p>Delivering end-to-end hardware repairs, enterprise network configurations, and robust user administration.</p>
             </div>
 
-            <div class="socials">
-                <a href="https://www.facebook.com/share/1JXyb7zbm1/?mibextid=wwXIfr" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"></a>
-                <a href="https://t.me/honglylong" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968804.png" alt="Telegram"></a>
-                <a href="https://www.youtube.com/@honglylong-x8w" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube"></a>
+            <div class="feature-cards">
+                <article class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-icon-box">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h4>Hardware & IT Support</h4>
+                    <p>Troubleshoot component-level issues, RAM/SSD upgrades, PC cloning, system recovery, Windows 10/11 installation, and peripherals maintenance.</p>
+                    <div class="card-tags">
+                        <span>Hardware Diagnostics</span>
+                        <span>PC Cloning</span>
+                        <span>Data Backup</span>
+                    </div>
+                </article>
+
+                <article class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-icon-box">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h4>Network Administration</h4>
+                    <p>Design network topologies in GNS3, configure routers, switches, VLANs, static and dynamic routing, LAN cabling, and Wireshark packet verification.</p>
+                    <div class="card-tags">
+                        <span>Cisco / MikroTik</span>
+                        <span>VLANs & Routing</span>
+                        <span>Wireshark</span>
+                    </div>
+                </article>
+
+                <article class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-icon-box">
+                        <i class="fa-brands fa-windows"></i>
+                    </div>
+                    <h4>Windows Server & AD</h4>
+                    <p>Set up Active Directory domains, manage user groups, configure file server access permissions (ACL), shared folders, and network printer sharing.</p>
+                    <div class="card-tags">
+                        <span>Active Directory</span>
+                        <span>File Server & ACL</span>
+                        <span>Printer Sharing</span>
+                    </div>
+                </article>
+
+                <article class="feature-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="card-icon-box">
+                        <i class="fa-brands fa-linux"></i>
+                    </div>
+                    <h4>Linux Administration</h4>
+                    <p>User and group management, directory permissions, password policies, UMASK, ACL configurations, shell scripting, and basic remote administration.</p>
+                    <div class="card-tags">
+                        <span>Linux CLI</span>
+                        <span>Permissions & ACL</span>
+                        <span>Bash Scripting</span>
+                    </div>
+                </article>
+
+                <article class="feature-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="card-icon-box">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+                    <h4>CCTV & Physical Security</h4>
+                    <p>Installation and configuration of CCTV cameras using IP Config Tool, SADP Tool, PoE switch configuration, and organized network cabling.</p>
+                    <div class="card-tags">
+                        <span>SADP Tool</span>
+                        <span>IP Config Tool</span>
+                        <span>PoE Switches</span>
+                    </div>
+                </article>
+
+                <article class="feature-card" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="card-icon-box">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h4>Enterprise Applications</h4>
+                    <p>Deploy and maintain Adobe Creative Suite (Photoshop, Illustrator, Premiere Pro), Autodesk (AutoCAD, Revit, 3ds Max), MS Office, and basic web hosting.</p>
+                    <div class="card-tags">
+                        <span>Adobe Suite</span>
+                        <span>Autodesk</span>
+                        <span>HTML/CSS Hosting</span>
+                    </div>
+                </article>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="about" id="about" data-aos="fade-up">
-        <div class="section-title">
-            <span>About Me</span>
-            <h3>Technical support that keeps your systems running.</h3>
-        </div>
+        <!-- CTA BANNER -->
+        <section class="cta-banner" data-aos="fade-up">
+            <div class="cta-banner-card">
+                <div class="cta-banner-content">
+                    <h3>Need Reliable Technical Support?</h3>
+                    <p>I am ready to help maintain your workstation fleet, configure networks, and solve complex system issues.</p>
+                </div>
+                <div class="buttons" style="margin: 0;">
+                    <a href="contact.html" class="btn-custom btn-primary-glow">
+                        <i class="fa-solid fa-paper-plane"></i> Contact Me Today
+                    </a>
+                    <a href="HONGLYLONGCV.pdf" class="btn-custom btn-secondary-glow" download>
+                        <i class="fa-solid fa-file-pdf"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <div class="feature-cards">
-            <article class="feature-card" data-aos="zoom-in" data-aos-delay="100">
-                <h4>Reliable Support</h4>
-                <p>Fast troubleshooting for desktops, servers, and peripherals so teams can keep moving.</p>
-            </article>
-            <article class="feature-card" data-aos="zoom-in" data-aos-delay="200">
-                <h4>Network Health</h4>
-                <p>Network checks, cabling, and security monitoring to reduce downtime and improve performance.</p>
-            </article>
-            <article class="feature-card" data-aos="zoom-in" data-aos-delay="300">
-                <h4>Clear Communication</h4>
-                <p>Simple, friendly support updates that help users feel confident and informed.</p>
-            </article>
-        </div>
-    </section>
-
+    <!-- FOOTER -->
     <footer>
-        <div class="footer-socials">
-            <a href="https://www.facebook.com/share/1JXyb7zbm1/?mibextid=wwXIfr" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"></a>
-            <a href="https://t.me/honglylong" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968804.png" alt="Telegram"></a>
-            <a href="https://www.youtube.com/@honglylong-x8w" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube"></a>
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="experince.html">Experience</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="HONGLYLONGCV.pdf" download>CV (PDF)</a>
         </div>
-        <p class="copyright">&copy; 2025 Hongly Long. All rights reserved.</p>
+        <div class="footer-socials">
+            <a href="https://t.me/honglylong" target="_blank" rel="noopener" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.facebook.com/share/1JXyb7zbm1/?mibextid=wwXIfr" target="_blank" rel="noopener" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/@honglylong-x8w" target="_blank" rel="noopener" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="mailto:honglylong61@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="copyright">&copy; 2026 Hongly Long. Designed for peak IT performance.</p>
     </footer>
 
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop" title="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({ duration: 900, once: true });
+        AOS.init({ duration: 800, once: true });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 

@@ -6,21 +6,27 @@ if (form) {
 
     const name = document.getElementById('name').value.trim();
     const fromEmail = document.getElementById('email').value.trim();
-    const subject = document.getElementById('subject').value.trim() || 'Message from portfolio';
+    const subject = document.getElementById('subject').value.trim() || 'IT Support Inquiry';
     const msg = document.getElementById('message').value.trim();
 
+    if (!name || !fromEmail || !msg) {
+      alert('Please fill out all required fields.');
+      return;
+    }
+
     const bodyLines = [
-      `Hello Long,`,
+      `Sender: ${name}`,
+      `Email: ${fromEmail}`,
+      `Subject: ${subject}`,
       '',
-      msg,
-      '',
-      `- ${name}`,
-      `Reply to: ${fromEmail}`
+      '--- Message ---',
+      msg
     ].join('\r\n');
 
-    const mailto = `mailto:sadboylong8@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines)}`;
+    const recipient = 'honglylong61@gmail.com';
+    const mailto = `mailto:${recipient}?subject=${encodeURIComponent('[Portfolio] ' + subject)}&body=${encodeURIComponent(bodyLines)}`;
+    
+    // Open default mail client
     window.location.href = mailto;
   });
 }
-
-
